@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  --ff-lexend-deca: "Lexend Deca", sans-serif;
+  --ff-big-shoulders: "Big Shoulders Display", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--very-light-gray);
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.card:first-child {
+  background-color: var(--bright-orange);
+  color: var(--bright-orange);
+}
+
+.card:nth-child(2) {
+  background-color: var(--dark-cyan);
+  color: var(--dark-cyan);
+}
+
+.card:last-child {
+  background-color: var(--very-dark-cyan);
+  color: var(--very-dark-cyan);
+}
+
+.card img {
+  width: 55px;
+  height: 35px;
+}
+
+.card .title {
+  font-family: var(--ff-big-shoulders);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+}
+
+.card .paragraph {
+  font-family: var(--ff-lexend-deca);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  color: var(--transparent-white);
+}
+
+.card .button {
+  width: 130px;
+  margin-top: 3rem;
+  background-color: var(--very-light-gray);
+  color: currentColor;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 15px;
+  transition: all 0.8s;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  color: var(--very-light-gray);
+  border: 1px solid var(--very-light-gray);
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    flex-direction: column;
+    margin: 60px 20px;
+    max-width: 320px;
+  }
+}
