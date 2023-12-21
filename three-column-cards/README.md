@@ -24,12 +24,13 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop screenshot](./images/screenshot-desktop.png)
-
 ![Mobile screenshot](./images/screenshot-mobile.png)
 
 ### Links
 
-<!-- TODO: add links -->
+[Live preview](https://lyaricci.github.io/frontend-mentor-challenges/three-column-cards/)
+
+[Solution](https://www.frontendmentor.io/solutions/responsive-3-column-cards-component-OHWbx5ZNpa)
 
 ## My process
 
