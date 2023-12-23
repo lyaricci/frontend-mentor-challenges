@@ -7,3 +7,4 @@ This repo contains my solutions to the [challenges](https://www.frontendmentor.i
 | Code | Preview |
 |---|---|
 |[3 Column cards component](https://github.com/lyaricci/frontend-mentor-challenges/tree/main/three-column-cards)|[🔗 Link](https://lyaricci.github.io/frontend-mentor-challenges/three-column-cards/)|
+|[Order summary component](https://github.com/lyaricci/frontend-mentor-challenges/tree/main/order-summary-component)|[🔗 Link](https://lyaricci.github.io/frontend-mentor-challenges/order-summary-component/)|
